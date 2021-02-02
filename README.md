@@ -1,5 +1,5 @@
 # TeamManagerDiscordBot
-Public version of the discord bot I'm working on (removed personal information for safety). Written in C# and uses DSharp API. 
+Current version of my discord bot altered for public release(removed personal information and personal bot token for safety). Written in C# and uses DSharp API. 
 I added as many comments as I could, but I don't understand how some of the API and bot framework works completely.
 
 For commands to work properly:
