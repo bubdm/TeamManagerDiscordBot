@@ -1,5 +1,6 @@
 # TeamManagerDiscordBot
 Public version of the discord bot I'm working on (removed personal information for safety). Written in C# and uses DSharp API. 
+I added as many comments as I could, but I don't understand how some of the API and bot framework works completely.
 
 For commands to work properly:
 1) Insert your own bot token in config.json file located at /bin/Debug/netcoreapp3.1/config.json
