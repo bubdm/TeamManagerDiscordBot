@@ -1,0 +1,9 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Aeon Nova\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Aeon Nova\\.nuget\\packages",
+      "C:\\Microsoft\\Xamarin\\NuGet"
+    ]
+  }
+}
