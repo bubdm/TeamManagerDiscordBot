@@ -1,0 +1,93 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Aeon Nova\\source\\repos\\TeamManagerBotPR\\TeamManagerDiscordBotPR\\TeamManagerDiscordBotPR.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Aeon Nova\\source\\repos\\TeamManagerBotPR\\TeamManagerDiscordBotPR\\TeamManagerDiscordBotPR.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Aeon Nova\\source\\repos\\TeamManagerBotPR\\TeamManagerDiscordBotPR\\TeamManagerDiscordBotPR.csproj",
+        "projectName": "TeamManagerDiscordBotPR",
+        "projectPath": "C:\\Users\\Aeon Nova\\source\\repos\\TeamManagerBotPR\\TeamManagerDiscordBotPR\\TeamManagerDiscordBotPR.csproj",
+        "packagesPath": "C:\\Users\\Aeon Nova\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aeon Nova\\source\\repos\\TeamManagerBotPR\\TeamManagerDiscordBotPR\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Aeon Nova\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.emzi0767.com/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "DSharpPlus": {
+              "target": "Package",
+              "version": "[4.0.0-nightly-00786, )"
+            },
+            "DSharpPlus.CommandsNext": {
+              "target": "Package",
+              "version": "[4.0.0-nightly-00786, )"
+            },
+            "DSharpPlus.Interactivity": {
+              "target": "Package",
+              "version": "[4.0.0-nightly-00786, )"
+            },
+            "DSharpPlus.Lavalink": {
+              "target": "Package",
+              "version": "[4.0.0-nightly-00786, )"
+            },
+            "DSharpPlus.Rest": {
+              "target": "Package",
+              "version": "[4.0.0-nightly-00786, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1-beta1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

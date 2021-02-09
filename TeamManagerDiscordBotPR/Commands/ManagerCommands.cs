@@ -1,4 +1,5 @@
-﻿using DSharpPlus.CommandsNext;
+﻿
+using DSharpPlus.CommandsNext;
 using DSharpPlus.CommandsNext.Attributes;
 using System;
 using System.Threading.Tasks;
@@ -14,7 +15,7 @@ namespace TeamManagerDiscordBotPR.Commands
 
     {
         [Command("weekly")]
-        [Description("post weekly schedule for the upcoming week. Set up for 3 days in advanced.")]                                                                                             
+        [Description("post weekly schedule for the upcoming week. Set up for 3 days in advanced.")]
         [RequireRoles(RoleCheckMode.Any, "Manager", "Asst Manager", "Team Creator", "Team Captain")]                                     //Checks for a user with one of these discord roles
         public async Task Weekly(CommandContext ctx)
         {
@@ -29,7 +30,7 @@ namespace TeamManagerDiscordBotPR.Commands
                 DayOfWeek dayName = DateTime.Today.AddDays(i).DayOfWeek;                                                                 //Uses DateTime to store specific day of the week, day number, and month number
                 string monthNum = DateTime.Today.AddDays(i).Month.ToString();                                                            //posts the date of the next seven days (3 days ahead).
                 string dayNum = DateTime.Today.AddDays(i).Day.ToString();                                                                //The idea is to post Friday night to give people a couple days to react (Mon-Sun) is our week.
-                    
+
                 await ctx.Channel.SendMessageAsync("React if you can vod review/scrim "                                                  //wish there was a way to convert to specific time zones and post in people's 
                     + dayName + " [" + monthNum + "/" + dayNum + "] between 9-11pm EST*");
             }
